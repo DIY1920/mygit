@@ -1,0 +1,7 @@
+git add xxx.txt         #添加文件到stage
+git commit -m "message" #提交到版本库
+git status              #查看状态
+git diff                #查看工作区和stage的不同
+git restore xxx.txt     #撤销工作区中的内容，使其与stage或者版本库对齐，stage优先
+git reset --hard Head^  #回退版本库
+git log                 #查看版本库修改日志
