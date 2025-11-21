@@ -6,8 +6,11 @@ git restore xxx.txt     #撤销工作区中的内容，使其与stage或者版�
 git reset --hard Head^  #回退版本库
 git reset HEAD <file>   #针对于stage中某个文件进行取消上传至stage的动作
 git log                 #查看版本库修改日志
+git rm xxx.txt          #删除xxx.txt指令提交到stage，类似add
 
 ls                      #查看当前路径下有哪些文件/文件夹
 mkdir xxx               #在当前路径下创建文件夹
 cd <>                   #进入<路径>文件夹
 pwd                     #查询当前路径
+rm xxx.txt              #删除文件，但貌似不能删除文件夹
+rmdir xxx               #删除文件夹（被我猜出来了，哈哈）
