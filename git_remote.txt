@@ -9,3 +9,5 @@ git push -u origin master
 
 git push origin master
 此后，每次本地提交后，只要有必要，就可以使用命令推送最新修改
+
+如果直接Git push会怎样呢？
