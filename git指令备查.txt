@@ -4,8 +4,11 @@ git status              #查看状态
 git diff                #查看工作区和stage的不同
 git restore xxx.txt     #撤销工作区中的内容，使其与stage或者版本库对齐，stage优先
 git reset --hard Head^  #回退版本库
-git reset HEAD <file>   #针对于stage中某个文件进行取消上传至stage的动作
-git log                 #查看版本库修改日志
+git reset --hard <id>   #回退至指定id的版本库
+
+git reset HEAD <file>   #针对于stage中某个文件进行取消上传至stage的动作，虽然都是reset指令，但是完全不同，注意区别！
+git log                 #查看版本库修改日志，若日志过长可用空格键或回车键往下看，按q进行退出。
+
 git rm xxx.txt          #删除xxx.txt指令提交到stage，类似add
 
 ls                      #查看当前路径下有哪些文件/文件夹

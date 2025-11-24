@@ -11,3 +11,7 @@ git push origin master
 此后，每次本地提交后，只要有必要，就可以使用命令推送最新修改
 
 如果直接Git push会怎样呢？
+答：会只更新之前连接过的远程库。另一个库需要手动添加库名称后再push一次。
+
+git remote rm <origin/gitee>
+取消远程库与本地库的关联
