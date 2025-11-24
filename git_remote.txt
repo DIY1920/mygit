@@ -1,7 +1,8 @@
 要关联一个远程库，使用命令
 git remote add origin git@server-name:path/repo-name.git
 
-关联一个远程库时必须给远程库指定一个名字，origin是默认习惯命名；
+关联一个远程库时必须给远程库指定一个名字，origin是默认习惯命名；比如有好几个远程库时，另外个想命名为gitee，则可以输入如下指令
+git remote add gitee git@<server-name:path/repo-name>.git
 
 git push -u origin master
 关联后，第一次推送master分支的所有内容，并绑定；
